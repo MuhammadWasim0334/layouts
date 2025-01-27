@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+section {
+    background-color: rgb(230, 239, 242);
+    width: 80%;
+    height: 200dvh;
+    margin: auto;
+    
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+ .First{
+    text-align: center;
+    gap: 2px;
+    width: 100%;
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+
+ }
+.first-childone {
+    background-color: rgb(129, 20, 244);
+    width: 33.33%;
+    height: 100%;
+
+}
+.first-childtwo {
+   
+    background-color: rgb(244, 238, 241);
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+.first-childtwo1 {
+    background-color: rgb(154, 176, 195);
+    height: 100%;
+    width: 100%;
+}
+.first-childtwo2 {
+    background-color: rgb(114, 10, 204);
+    height: 100%;
+    width: 100%;
+}
+.first-childthree {
+    background-color: rgb(18, 214, 126);
+    width: 33.33%;
+    height: 100%;
+
+}
+.Second {
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  justify-content: center;
+
+}
+.second-childone {
+width: 20%;
+background-color: blue;
+height: 90%;
+margin-top: 5px;
+}
+.second-childtwo {
+    width: 20%;
+    background-color: blue;
+    height: 90%;
+    margin-top: 5px;
+    }
+    .second-childthree {
+        width: 20%;
+        background-color: blue;
+        height: 90%;
+        margin-top: 5px;
+        }
+
+ .Third {
+    justify-self: center;
+    justify-content: center;
+    padding: 20px;
+   border-radius: 15px;
+    width: 90%;
+    background-color: lightgrey;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ }
+ .third-childone {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(16, 75, 16);
+    border-radius: 8px;
+
+
+ }
+ .third-childtwo {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(16, 75, 16);
+    border-radius: 8px;
+
+    
+ }
+ .third-childthree {
+    width: 30%;
+    height: 40px;
+    background-color: rgb(23, 89, 23);
+     border-radius: 8px;
+
+    
+ }
+
+ .Four {
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+   
+    
+ .four-childone {
+    width: 20%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+ }
+ .four-childone1 {
+
+    width: 100%;
+    height: 95px;
+    background-color: rgb(167, 161, 172);
+    border-radius: 20px
+
+
+ }
+ .four-childone2{
+
+    width: 100%;
+    height: 95px;
+    background-color: rgb(167, 161, 172);
+    border-radius: 20px;
+
+ }
+ .four-childone3 {
+
+    width: 100%;
+    height: 95px;
+    background-color: rgb(167, 161, 172);
+    border-radius: 20px
+
+
+ }
+ .four-childone4 {
+
+    width: 100%;
+    height: 95px;
+    background-color: rgb(167, 161, 172);
+    border-radius: 20px
+ }
+ .four-childtwo {
+    width: 20%;
+    height: 300px;
+    background-color: rgb(242, 237, 246);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+
+ }
+ .four-childtwo1{
+    background-color: rgb(154, 176, 195);
+    height: 50%;
+    width: 100%;
+
+ }
+ .four-childtwo2{
+    background-color: rgb(45, 14, 80);
+    height: 50%;
+    width: 100%;}
+ 
+ .four-childthree {
+    width: 20%;
+    height: 300px;
+    background-color: rgb(242, 237, 246);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+ }
+ .four-childthree1 {
+    background-color: rgb(154, 176, 195);
+    height: 50%;
+    width: 100%;
+}
+.four-childthree2 {
+    background-color: rgb(45, 14, 80);
+    height: 50%;
+    width: 100%;}
+
+ .four-childfour {
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+ }
+ .four-childfour1 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(154, 176, 195);
+ }
+ .four-childfour2 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(45, 14, 80);
+    
+ }

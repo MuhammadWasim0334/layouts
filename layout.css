@@ -1,0 +1,58 @@
+body {
+  display: grid;
+  grid-template-areas:
+      "header header"
+      "main-content sidebar"
+      "twin1 twin2"
+      "footer footer";
+  grid-template-rows: auto 1fr auto auto;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  grid-area: header;
+  background-color: #4db8ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content {
+  grid-area: main-content;
+  background-color: #66cc66;
+  text-align: center;
+  padding: 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #cc99ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.twin {
+  background-color: #ff9933;
+  text-align: center;
+  padding: 20px;
+}
+
+.twin1 {
+  grid-area: twin1;
+}
+
+.twin2 {
+  grid-area: twin2;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
